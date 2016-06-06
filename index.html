@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Hanoi</title>
+	<link rel="stylesheet" href="mycss.css">
+	<link rel="stylesheet" href="material.min.css">
+	<script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+	<script src="http://code.jquery.com/ui/1.12.0-rc.2/jquery-ui.min.js"></script>
+	<script src="material.min.js"></script>
+</head>
+<body>
+	<div class='input'>
+		<div class="mdl-textfield mdl-js-textfield">
+		    <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="sample2">
+		    <label class="mdl-textfield__label" for="sample2">Number...</label>
+		    <span class="mdl-textfield__error">Input is not a number!</span>
+		</div>
+		<button class="mdl-button mdl-js-ripple-effect mdl-js-button mdl-button--raised mdl-button--colored">
+		  CREATE
+		</button>	
+	</div>
+	
+	<div class='outermost'>
+		<div class='container src-container'>
+			<div class='bar'></div>
+			<div class='plate-container'>
+				
+			</div>
+			<div class='base'></div>	
+			<div>src</div>
+		</div>
+		<div class='container aux-container'>
+			<div class='bar'></div>
+			<div class='plate-container'>
+				
+			</div>
+			<div class='base'></div>
+			<div>aux</div>	
+		</div>
+		<div class='container dest-container'>
+			<div class='bar'></div>
+			<div class='plate-container'>
+				
+			</div>
+			<div class='base'></div>	
+			<div>dest</div>
+		</div>	
+	</div>
+	<!-- Colored raised button -->
+	<div class='start-button'>
+		<button class="mdl-button mdl-js-ripple-effect mdl-js-button mdl-button--raised mdl-button--colored">
+		  START
+		</button>	
+	</div>
+	
+
+	<script src="myjs.js"></script>
+</body>
+</html>
